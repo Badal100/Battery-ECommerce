@@ -3,16 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("id02");
   const searchResultsContainer = document.getElementById("searchResults");
 
-  // Dummy data for demonstration
-  const data = [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Node.js",
-    "React",
-    "Angular",
-    "Vue.js",
-  ];
   let batteryObject;
   $.getJSON('./assets/Constant/Constants.json', function(data) {
    

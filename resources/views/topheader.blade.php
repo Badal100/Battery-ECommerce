@@ -112,7 +112,7 @@
         <div class="header-alert-news">
           <p>
             <b>Free Shipping</b>
-            This Week Order Over - $55
+            This Week Order Over -₹$55
           </p>
         </div>
 
@@ -154,7 +154,7 @@
           <button class="search-btn">
             <ion-icon name="search-outline"></ion-icon>
           </button>
-          <div id="id02" class="searchPopup">
+          <div id="id02" class="searchPopup" style="width:100%">
   <div class="w3-card-4">
     <div class="">
         <div id="searchResults"></div>
@@ -314,7 +314,7 @@
           </li>
 
           <li class="menu-category">
-            <a href="/car-battery" class="menu-title">Bike Battery</a>
+            <a href="/bike-battery" class="menu-title">Bike Battery</a>
 
             <div class="dropdown-panel">
 
@@ -434,7 +434,7 @@
           </li>
 
           <li class="menu-category">
-            <a href="/car-battery" class="menu-title">Truck Battery</a>
+            <a href="/truck-battery" class="menu-title">Truck Battery</a>
 
             <div class="dropdown-panel">
 
@@ -552,7 +552,7 @@
           </li>
 
           <li class="menu-category">
-            <a href="/car-battery" class="menu-title">Other Battery</a>
+            <a href="/other-battery" class="menu-title">Other Battery</a>
 
             <div class="dropdown-panel">
 

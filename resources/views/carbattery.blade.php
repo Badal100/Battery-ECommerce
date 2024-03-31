@@ -17,8 +17,9 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
 
        var tblRow = "<div class=showcase-wrapper has-scrollbar><div class='showcase-container'><div class='showcase'><div class='showcase-banner'><img src='./assets/images/Battery/battery2.jpg' alt='shampoo, conditioner & facewash packs' class='showcase-img'></div><div class='showcase-content'><div class='showcase-rating'><ion-icon name='star'></ion-icon><ion-icon name='star'></ion-icon><ion-icon name='star'></ion-icon><ion-icon name='star-outline'></ion-icon><ion-icon name='star-outline'></ion-icon></div><a href='#'><h3 class='showcase-title'>"
         + f.title + 
-        "</h3></a><p class='showcase-desc'>" + f.description
-         + "</p><div class='price-box'><p class='price'>₹" + f.price + "</p><del>$200.00</del></div><a href=" + 
+        "</h3></a><p class='showcase-desc'>" + f.warranty + 
+        "</p><p class='showcase-desc'>" + f.Technical_Details.Voltage + "</p><p class='showcase-desc'>" + f.Technical_Details.Product_Dimensions + 
+        "</p><div class='price-box'><p class='price'>₹" + f.price + "</p><del>₹200.00</del></div><a href=" + 
          '/view-product?batteryId='+ f.id + "><button class='add-cart-btn'>view more</button></a><div class='showcase-status'><div class='wrapper'><p>already sold: <b>20</b></p><p>available: <b>40</b></p></div><div class='showcase-status-bar'></div></div></div></div></div></div>"
     }
 
@@ -676,8 +677,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                     </div>
 
                     <div class="price-box">
-                      <del>$5.00</del>
-                      <p class="price">$4.00</p>
+                      <del>₹5.00</del>
+                      <p class="price">₹4.00</p>
                     </div>
 
                   </div>
@@ -705,8 +706,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                     </div>
 
                     <div class="price-box">
-                      <del>$17.00</del>
-                      <p class="price">$7.00</p>
+                      <del>₹17.00</del>
+                      <p class="price">₹7.00</p>
                     </div>
 
                   </div>
@@ -734,8 +735,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                     </div>
 
                     <div class="price-box">
-                      <del>$5.00</del>
-                      <p class="price">$3.00</p>
+                      <del>₹5.00</del>
+                      <p class="price">₹3.00</p>
                     </div>
 
                   </div>
@@ -763,8 +764,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                     </div>
 
                     <div class="price-box">
-                      <del>$15.00</del>
-                      <p class="price">$12.00</p>
+                      <del>₹15.00</del>
+                      <p class="price">₹12.00</p>
                     </div>
 
                   </div>
@@ -812,8 +813,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Clothes</a>
 
                       <div class="price-box">
-                        <p class="price">$45.00</p>
-                        <del>$12.00</del>
+                        <p class="price">₹45.00</p>
+                        <del>₹12.00</del>
                       </div>
 
                     </div>
@@ -835,8 +836,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Clothes</a>
                   
                       <div class="price-box">
-                        <p class="price">$61.00</p>
-                        <del>$9.00</del>
+                        <p class="price">₹61.00</p>
+                        <del>₹9.00</del>
                       </div>
                   
                     </div>
@@ -859,8 +860,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Clothes</a>
                   
                       <div class="price-box">
-                        <p class="price">$76.00</p>
-                        <del>$25.00</del>
+                        <p class="price">₹76.00</p>
+                        <del>₹25.00</del>
                       </div>
                   
                     </div>
@@ -883,8 +884,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Mens Fashion</a>
                   
                       <div class="price-box">
-                        <p class="price">$68.00</p>
-                        <del>$31.00</del>
+                        <p class="price">₹68.00</p>
+                        <del>₹31.00</del>
                       </div>
                   
                     </div>
@@ -911,8 +912,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Winter wear</a>
                 
                       <div class="price-box">
-                        <p class="price">$61.00</p>
-                        <del>$11.00</del>
+                        <p class="price">₹61.00</p>
+                        <del>₹11.00</del>
                       </div>
                 
                     </div>
@@ -935,8 +936,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Winter wear</a>
                 
                       <div class="price-box">
-                        <p class="price">$32.00</p>
-                        <del>$20.00</del>
+                        <p class="price">₹32.00</p>
+                        <del>₹20.00</del>
                       </div>
                 
                     </div>
@@ -959,8 +960,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Jackets</a>
                 
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$25.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹25.00</del>
                       </div>
                 
                     </div>
@@ -983,8 +984,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Shorts</a>
                 
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹10.00</del>
                       </div>
                 
                     </div>
@@ -1021,8 +1022,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$49.00</p>
-                        <del>$15.00</del>
+                        <p class="price">₹49.00</p>
+                        <del>₹15.00</del>
                       </div>
             
                     </div>
@@ -1045,8 +1046,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$78.00</p>
-                        <del>$36.00</del>
+                        <p class="price">₹78.00</p>
+                        <del>₹36.00</del>
                       </div>
             
                     </div>
@@ -1069,8 +1070,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Party wear</a>
             
                       <div class="price-box">
-                        <p class="price">$94.00</p>
-                        <del>$42.00</del>
+                        <p class="price">₹94.00</p>
+                        <del>₹42.00</del>
                       </div>
             
                     </div>
@@ -1093,8 +1094,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$54.00</p>
-                        <del>$65.00</del>
+                        <p class="price">₹54.00</p>
+                        <del>₹65.00</del>
                       </div>
             
                     </div>
@@ -1121,8 +1122,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$52.00</p>
-                        <del>$55.00</del>
+                        <p class="price">₹52.00</p>
+                        <del>₹55.00</del>
                       </div>
             
                     </div>
@@ -1144,8 +1145,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">boots</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1168,8 +1169,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">formal</a>
             
                       <div class="price-box">
-                        <p class="price">$56.00</p>
-                        <del>$78.00</del>
+                        <p class="price">₹56.00</p>
+                        <del>₹78.00</del>
                       </div>
             
                     </div>
@@ -1191,8 +1192,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Casual</a>
             
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$55.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹55.00</del>
                       </div>
             
                     </div>
@@ -1229,8 +1230,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Watches</a>
             
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$34.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹34.00</del>
                       </div>
             
                     </div>
@@ -1253,8 +1254,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$84.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹84.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1277,8 +1278,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Perfume</a>
             
                       <div class="price-box">
-                        <p class="price">$42.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹42.00</p>
+                        <del>₹10.00</del>
                       </div>
             
                     </div>
@@ -1301,8 +1302,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Belt</a>
             
                       <div class="price-box">
-                        <p class="price">$24.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹24.00</p>
+                        <del>₹10.00</del>
                       </div>
             
                     </div>
@@ -1329,8 +1330,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$62.00</p>
-                        <del>$65.00</del>
+                        <p class="price">₹62.00</p>
+                        <del>₹65.00</del>
                       </div>
             
                     </div>
@@ -1352,8 +1353,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">Watches</a>
             
                       <div class="price-box">
-                        <p class="price">$56.00</p>
-                        <del>$78.00</del>
+                        <p class="price">₹56.00</p>
+                        <del>₹78.00</del>
                       </div>
             
                     </div>
@@ -1376,8 +1377,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">cosmetics</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1400,8 +1401,8 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                       <a href="#" class="showcase-category">jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1474,23 +1475,14 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
 
                 <div class="showcase-content">
 
-                  <a href="#" class="showcase-category">jacket</a>
+                  <a href="" class="showcase-category">car</a>
 
-                  <a href="#">
-                    <h3 class="showcase-title">Mens Winter Leathers Jackets</h3>
-                  </a>
-
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
+                  <h3>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=5" class="showcase-title">Amaron FL-00042B20L Flo 12 Volts 35Ah Front Car Battery</a>
+                  </h3>
 
                   <div class="price-box">
-                    <p class="price">$48.00</p>
-                    <del>$75.00</del>
+                    <p class="price">₹408.00</p>
                   </div>
 
                 </div>
@@ -1527,23 +1519,14 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">shirt</a>
+                  <a href="#" class="showcase-category">Car</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Pure Garment Dyed Cotton Shirt</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=4" class="showcase-title">Exide FMI0-MI35R Mileage Front Car Battery (12V, 35Ah)"</a>
                   </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
+                        
                   <div class="price-box">
-                    <p class="price">$45.00</p>
-                    <del>$56.00</del>
+                    <p class="price">₹4005.00</p>
                   </div>
               
                 </div>
@@ -1578,23 +1561,14 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">Jacket</a>
+                  <a href="#" class="showcase-category">car</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">MEN Yarn Fleece Full-Zip Jacket</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=3" class="showcase-title">Exide Din50-50ah Mileage Car Battery</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
                   <div class="price-box">
-                    <p class="price">$58.00</p>
-                    <del>$65.00</del>
+                    <p class="price">₹5800.00</p>
                   </div>
               
                 </div>
@@ -1631,23 +1605,14 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">skirt</a>
+                  <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Black Floral Wrap Midi Skirt</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=2" class="showcase-title">AMARON lead acid HI LIFE FLO 36B20L 36 ah BATTERY FOR PETROL CARS, Passenger Car</a>
                   </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-              
+    
                   <div class="price-box">
-                    <p class="price">$25.00</p>
-                    <del>$35.00</del>
+                    <p class="price">₹2500.00</p>
                   </div>
               
                 </div>
@@ -1682,23 +1647,15 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">casual</a>
+                  <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Casual Men's Brown shoes</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=1" class="showcase-title">EXIDE Mileage MRED35/R/L 35 amp_hour Battery</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-              
                   <div class="price-box">
-                    <p class="price">$99.00</p>
-                    <del>$105.00</del>
+                    <p class="price">₹9900.00</p>
+                    <del>₹9000.00</del>
                   </div>
               
                 </div>
@@ -1735,23 +1692,16 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">watches</a>
+                  <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Pocket Watch Leather Pouch</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=6" class="showcase-title">Amaron BL-400LMF Black 12 Volts 35Ah Front Car Battery</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
               
                   <div class="price-box">
-                    <p class="price">$150.00</p>
-                    <del>$170.00</del>
+                    <p class="price">₹1500.00</p>
+                    <del>₹170.00</del>
                   </div>
               
                 </div>
@@ -1785,23 +1735,15 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">watches</a>
+                  <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Smart watche Vital Plus</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=7" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
               
                   <div class="price-box">
-                    <p class="price">$100.00</p>
-                    <del>$120.00</del>
+                    <p class="price">₹1000.00</p>
                   </div>
               
                 </div>
@@ -1838,23 +1780,15 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">party wear</a>
+                  <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Womens Party Wear Shoes</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=7" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
                   <div class="price-box">
-                    <p class="price">$25.00</p>
-                    <del>$30.00</del>
+                    <p class="price">₹205.00</p>
+                    <del>₹30.00</del>
                   </div>
               
                 </div>
@@ -1889,23 +1823,15 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">jacket</a>
+                  <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Mens Winter Leathers Jackets</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
                   </h3>
               
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
               
                   <div class="price-box">
-                    <p class="price">$32.00</p>
-                    <del>$45.00</del>
+                    <p class="price">₹32.00</p>
                   </div>
               
                 </div>
@@ -1942,25 +1868,16 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">sports</a>
+                <a href="#" class="showcase-category">truck</a>
               
-                  <h3>
-                    <a href="#" class="showcase-title">Trekking & Running Shoes - black</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$58.00</p>
-                    <del>$64.00</del>
-                  </div>
-              
+              <h3>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+              </h3>
+          
+          
+              <div class="price-box">
+                <p class="price">₹32.00</p>
+              </div>
                 </div>
               
               </div>
@@ -1993,25 +1910,16 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">formal</a>
+                <a href="#" class="showcase-category">truck</a>
               
-                  <h3>
-                    <a href="#" class="showcase-title">Men's Leather Formal Wear shoes</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$50.00</p>
-                    <del>$65.00</del>
-                  </div>
-              
+              <h3>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+              </h3>
+          
+          
+              <div class="price-box">
+                <p class="price">₹32.00</p>
+              </div>
                 </div>
               
               </div>
@@ -2046,25 +1954,16 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 </div>
               
                 <div class="showcase-content">
-                  <a href="#" class="showcase-category">shorts</a>
+                <a href="#" class="showcase-category">truck</a>
               
-                  <h3>
-                    <a href="#" class="showcase-title">Better Basics French Terry Sweatshorts</a>
-                  </h3>
-              
-                  <div class="showcase-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                    <ion-icon name="star-outline"></ion-icon>
-                  </div>
-              
-                  <div class="price-box">
-                    <p class="price">$78.00</p>
-                    <del>$85.00</del>
-                  </div>
-              
+              <h3>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+              </h3>
+          
+          
+              <div class="price-box">
+                <p class="price">₹32.00</p>
+              </div>
                 </div>
               
               </div>
@@ -2136,7 +2035,7 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
 
               <h2 class="cta-title">Summer collection</h2>
 
-              <p class="cta-text">Starting @ $10</p>
+              <p class="cta-text">Starting @ ₹10</p>
 
               <button class="cta-btn">Shop now</button>
 
@@ -2165,7 +2064,7 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 <div class="service-content">
 
                   <h3 class="service-title">Worldwide Delivery</h3>
-                  <p class="service-desc">For Order Over $100</p>
+                  <p class="service-desc">For Order Over ₹100</p>
 
                 </div>
 
@@ -2225,7 +2124,7 @@ $.getJSON('./assets/Constant/Constants.json', function(data) {
                 <div class="service-content">
               
                   <h3 class="service-title">30% money back</h3>
-                  <p class="service-desc">For Order Over $100</p>
+                  <p class="service-desc">For Order Over ₹100</p>
               
                 </div>
               

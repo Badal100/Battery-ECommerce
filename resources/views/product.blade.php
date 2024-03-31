@@ -1,6 +1,32 @@
 @include('topheader')
 <script>
   
+//   window.onscroll = function() {myFunction()};
+
+// var header = document.getElementById("myHeader");
+// var sticky = header.offsetTop;
+// function myFunction() {
+
+//   if (window.pageYOffset > sticky) {
+//  	    header.classList.add("leftStaticClass");
+// 		document.getElementById("h").style.height="94vh";
+//     document.getElementById("navbar").style.marginBottom="44px";
+//     document.getElementById("h").style.position="fixed";
+//     document.getElementById("hide").style.display="block";
+//     document.getElementById("h").style.marginTop="-57px";
+
+//   } else {
+
+//     header.classList.remove("leftStaticClass");
+//     document.getElementById("h").style.height="87vh";
+//     document.getElementById("navbar").style.marginBottom="0px";
+//     document.getElementById("h").style.marginTop="0px";
+//     document.getElementById("h").style.position="static";
+//     document.getElementById("hide").style.display="none";
+
+//   }
+// }
+
   function validateForm() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
@@ -44,24 +70,23 @@
       features = features + "<option>" + item + "</option>";
      });
 
-          var tblRow = "<div class=showcase-wrapper has-scrollbar><div class='showcase-container'><div class='showcase'><div class='showcase-banner'><img src='./assets/images/Battery/battery2.jpg' alt='shampoo, conditioner & facewash packs' class='showcase-img'></div><div class='showcase-content'><a href='#'><h3 class='showcase-title'>"
+          var tblRow = "<div class=showcase-wrapper has-scrollbar><div class='showcase-container'><div class='showcase'><div class='showcase-banner'><img src='./assets/images/Battery/battery2.jpg' class='showcase-img'></div><div class='showcase-content'><a href='#'><h3 class='showcase-title'>"
            + batteryObject.title + 
            "</h3></a><p class='showcase-desc'>Product Dimensions: <b>" + batteryObject.Technical_Details.Product_Dimensions
             + "</b></p>" + 
             "<p class='showcase-desc'>Product Weight: <b>" + batteryObject.Technical_Details.Item_Weight
-            + "</b></p><div class='price-box'><p class='price'>₹" + batteryObject.price + "</p><del>₹200.00</del></div><button class='add-cart-btn' onclick=document.getElementById('id01').style.display='block'>BUY NOW</button></div></div></div></div>" +
+            + "</b></p><div class='price-box'><p class='price'>₹" + batteryObject.price + "</p><del>₹200.00</del></div><button class='add-cart-btn' onclick=document.getElementById('id01').style.display='block'>BUY NOW</button>" + 
             "<div class='marginClass'><h3 class='showcase-title'>" + batteryObject.title + " Description:</h3><p class='showcase-desc'>" +
             batteryObject.description + "</p></div><div><h3 class='showcase-title'>Features:</h3><ul>" +
-            features + "</ul></div>";
-
-            var specification =  "<div class='marginClass'><h3 class='showcase-title'>Specifications of </h3><table class='specification-table'><tr><td>Model</td><td>" + 
+            features + "</ul></div>" +
+            "<div class='marginClass'><h3 class='showcase-title'>Specifications of </h3><table class='specification-table'><tr><td>Model</td><td>" + 
             batteryObject.Technical_Details.Model_Number + "</td></tr><tr><td>Capacity</td><td>" + 
             batteryObject.Technical_Details.Voltage + "</td></tr><tr><td>Warranty</td><td>" + 
             batteryObject.warranty + "</td></tr><tr><td>Battery Layout</td><td>" +
             batteryObject.Technical_Details.Product_Dimensions + "</td></tr></table></div>"
-   
+            +"</div></div></div></div>";
+
           $(tblRow).appendTo("#BatteryProductSection");
-          $(specification).appendTo("#SpecificationSection");
           document.getElementById('selectedBattery').innerHTML = "Selected Battery:- " + batteryObject.title;
    });
    });
@@ -80,9 +105,6 @@
 <main>
    <div class="product-featured" style="margin:0px 20px;">
    <div id="BatteryProductSection">
-   </div>
-   
-   <div id='SpecificationSection'>
    </div>
    </div>
 
@@ -601,217 +623,180 @@
 
       <div class="product-grid">
 
-       
+<div class="showcase">
 
-        <div class="showcase">
-        
-          <div class="showcase-banner">
-            <img src="./assets/images/Battery/battery2.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
-              width="300">
-            <img src="./assets/images/Battery/battery2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
-              width="300">
-        
-            <div class="showcase-actions">
-              <button class="btn-action">
-                <ion-icon name="heart-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="eye-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="repeat-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="bag-add-outline"></ion-icon>
-              </button>
-            </div>
-          </div>
-        
-          <div class="showcase-content">
-            <a href="#" class="showcase-category">jacket</a>
-        
-            <h3>
-              <a href="#" class="showcase-title">Mens Winter Leathers Jackets</a>
-            </h3>
-        
-            <div class="showcase-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-        
-            <div class="price-box">
-              <p class="price">$32.00</p>
-              <del>$45.00</del>
-            </div>
-        
-          </div>
-        
-        </div>
+  <div class="showcase-banner">
+    <img src="./assets/images/Battery/battery2.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
+      width="300">
+    <img src="./assets/images/Battery/battery2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
+      width="300">
 
-        <div class="showcase">
-        
-          <div class="showcase-banner">
-            <img src="./assets/images/Battery/battery2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
-              width="300">
-            <img src="./assets/images/Battery/battery5.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
-              width="300">
-        
-            <p class="showcase-badge angle black">sale</p>
-        
-            <div class="showcase-actions">
-              <button class="btn-action">
-                <ion-icon name="heart-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="eye-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="repeat-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="bag-add-outline"></ion-icon>
-              </button>
-            </div>
-          </div>
-        
-          <div class="showcase-content">
-            <a href="#" class="showcase-category">sports</a>
-        
-            <h3>
-              <a href="#" class="showcase-title">Trekking & Running Shoes - black</a>
-            </h3>
-        
-            <div class="showcase-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-        
-            <div class="price-box">
-              <p class="price">$58.00</p>
-              <del>$64.00</del>
-            </div>
-        
-          </div>
-        
-        </div>
+    <div class="showcase-actions">
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
 
-        <div class="showcase">
-        
-          <div class="showcase-banner">
-            <img src="./assets/images/Battery/battery3.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
-              width="300">
-            <img src="./assets/images/Battery/battery3.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
-              width="300">
-        
-            <div class="showcase-actions">
-              <button class="btn-action">
-                <ion-icon name="heart-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="eye-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="repeat-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="bag-add-outline"></ion-icon>
-              </button>
-            </div>
-          </div>
-        
-          <div class="showcase-content">
-            <a href="#" class="showcase-category">formal</a>
-        
-            <h3>
-              <a href="#" class="showcase-title">Men's Leather Formal Wear shoes</a>
-            </h3>
-        
-            <div class="showcase-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-        
-            <div class="price-box">
-              <p class="price">$50.00</p>
-              <del>$65.00</del>
-            </div>
-        
-          </div>
-        
-        </div>
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
 
-        <div class="showcase">
-        
-          <div class="showcase-banner">
-            <img src="./assets/images/Battery/battery5.jpg" alt="Better Basics French Terry Sweatshorts"
-              class="product-img default" width="300">
-            <img src="./assets/images/Battery/battery6.jpg" alt="Better Basics French Terry Sweatshorts"
-              class="product-img hover" width="300">
-        
-            <p class="showcase-badge angle black">sale</p>
-        
-            <div class="showcase-actions">
-              <button class="btn-action">
-                <ion-icon name="heart-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="eye-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="repeat-outline"></ion-icon>
-              </button>
-        
-              <button class="btn-action">
-                <ion-icon name="bag-add-outline"></ion-icon>
-              </button>
-            </div>
-          </div>
-        
-          <div class="showcase-content">
-            <a href="#" class="showcase-category">shorts</a>
-        
-            <h3>
-              <a href="#" class="showcase-title">Better Basics French Terry Sweatshorts</a>
-            </h3>
-        
-            <div class="showcase-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-              <ion-icon name="star-outline"></ion-icon>
-            </div>
-        
-            <div class="price-box">
-              <p class="price">$78.00</p>
-              <del>$85.00</del>
-            </div>
-        
-          </div>
-        
-        </div>
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
 
-      </div>
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="showcase-content">
+    <a href="#" class="showcase-category">truck</a>
+
+    <h3>
+      <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+    </h3>
+
+
+    <div class="price-box">
+      <p class="price">₹32.00</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="showcase">
+
+  <div class="showcase-banner">
+    <img src="./assets/images/Battery/battery2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
+      width="300">
+    <img src="./assets/images/Battery/battery5.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
+      width="300">
+
+    <p class="showcase-badge angle black">sale</p>
+
+    <div class="showcase-actions">
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="showcase-content">
+  <a href="#" class="showcase-category">truck</a>
+
+<h3>
+  <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+</h3>
+
+
+<div class="price-box">
+  <p class="price">₹32.00</p>
+</div>
+  </div>
+
+</div>
+
+<div class="showcase">
+
+  <div class="showcase-banner">
+    <img src="./assets/images/Battery/battery3.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
+      width="300">
+    <img src="./assets/images/Battery/battery3.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
+      width="300">
+
+    <div class="showcase-actions">
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="showcase-content">
+  <a href="#" class="showcase-category">truck</a>
+
+<h3>
+  <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+</h3>
+
+
+<div class="price-box">
+  <p class="price">₹32.00</p>
+</div>
+  </div>
+
+</div>
+
+<div class="showcase">
+
+  <div class="showcase-banner">
+    <img src="./assets/images/Battery/battery5.jpg" alt="Better Basics French Terry Sweatshorts"
+      class="product-img default" width="300">
+    <img src="./assets/images/Battery/battery6.jpg" alt="Better Basics French Terry Sweatshorts"
+      class="product-img hover" width="300">
+
+    <p class="showcase-badge angle black">sale</p>
+
+    <div class="showcase-actions">
+      <button class="btn-action">
+        <ion-icon name="heart-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="eye-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="repeat-outline"></ion-icon>
+      </button>
+
+      <button class="btn-action">
+        <ion-icon name="bag-add-outline"></ion-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="showcase-content">
+  <a href="#" class="showcase-category">truck</a>
+
+<h3>
+  <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+</h3>
+
+
+<div class="price-box">
+  <p class="price">₹32.00</p>
+</div>
+  </div>
+
+</div>
+
+</div>
 
     </div>
 

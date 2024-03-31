@@ -655,8 +655,8 @@
                     </div>
 
                     <div class="price-box">
-                      <del>$5.00</del>
-                      <p class="price">$4.00</p>
+                      <del>₹5.00</del>
+                      <p class="price">₹4.00</p>
                     </div>
 
                   </div>
@@ -684,8 +684,8 @@
                     </div>
 
                     <div class="price-box">
-                      <del>$17.00</del>
-                      <p class="price">$7.00</p>
+                      <del>₹17.00</del>
+                      <p class="price">₹7.00</p>
                     </div>
 
                   </div>
@@ -713,8 +713,8 @@
                     </div>
 
                     <div class="price-box">
-                      <del>$5.00</del>
-                      <p class="price">$3.00</p>
+                      <del>₹5.00</del>
+                      <p class="price">₹3.00</p>
                     </div>
 
                   </div>
@@ -742,8 +742,8 @@
                     </div>
 
                     <div class="price-box">
-                      <del>$15.00</del>
-                      <p class="price">$12.00</p>
+                      <del>₹15.00</del>
+                      <p class="price">₹12.00</p>
                     </div>
 
                   </div>
@@ -791,8 +791,8 @@
                       <a href="#" class="showcase-category">Clothes</a>
 
                       <div class="price-box">
-                        <p class="price">$45.00</p>
-                        <del>$12.00</del>
+                        <p class="price">₹45.00</p>
+                        <del>₹12.00</del>
                       </div>
 
                     </div>
@@ -814,8 +814,8 @@
                       <a href="#" class="showcase-category">Clothes</a>
                   
                       <div class="price-box">
-                        <p class="price">$61.00</p>
-                        <del>$9.00</del>
+                        <p class="price">₹61.00</p>
+                        <del>₹9.00</del>
                       </div>
                   
                     </div>
@@ -838,8 +838,8 @@
                       <a href="#" class="showcase-category">Clothes</a>
                   
                       <div class="price-box">
-                        <p class="price">$76.00</p>
-                        <del>$25.00</del>
+                        <p class="price">₹76.00</p>
+                        <del>₹25.00</del>
                       </div>
                   
                     </div>
@@ -862,8 +862,8 @@
                       <a href="#" class="showcase-category">Mens Fashion</a>
                   
                       <div class="price-box">
-                        <p class="price">$68.00</p>
-                        <del>$31.00</del>
+                        <p class="price">₹68.00</p>
+                        <del>₹31.00</del>
                       </div>
                   
                     </div>
@@ -890,8 +890,8 @@
                       <a href="#" class="showcase-category">Winter wear</a>
                 
                       <div class="price-box">
-                        <p class="price">$61.00</p>
-                        <del>$11.00</del>
+                        <p class="price">₹61.00</p>
+                        <del>₹11.00</del>
                       </div>
                 
                     </div>
@@ -914,8 +914,8 @@
                       <a href="#" class="showcase-category">Winter wear</a>
                 
                       <div class="price-box">
-                        <p class="price">$32.00</p>
-                        <del>$20.00</del>
+                        <p class="price">₹32.00</p>
+                        <del>₹20.00</del>
                       </div>
                 
                     </div>
@@ -938,8 +938,8 @@
                       <a href="#" class="showcase-category">Jackets</a>
                 
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$25.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹25.00</del>
                       </div>
                 
                     </div>
@@ -962,8 +962,8 @@
                       <a href="#" class="showcase-category">Shorts</a>
                 
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹10.00</del>
                       </div>
                 
                     </div>
@@ -1000,8 +1000,8 @@
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$49.00</p>
-                        <del>$15.00</del>
+                        <p class="price">₹49.00</p>
+                        <del>₹15.00</del>
                       </div>
             
                     </div>
@@ -1024,8 +1024,8 @@
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$78.00</p>
-                        <del>$36.00</del>
+                        <p class="price">₹78.00</p>
+                        <del>₹36.00</del>
                       </div>
             
                     </div>
@@ -1048,8 +1048,8 @@
                       <a href="#" class="showcase-category">Party wear</a>
             
                       <div class="price-box">
-                        <p class="price">$94.00</p>
-                        <del>$42.00</del>
+                        <p class="price">₹94.00</p>
+                        <del>₹42.00</del>
                       </div>
             
                     </div>
@@ -1072,8 +1072,8 @@
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$54.00</p>
-                        <del>$65.00</del>
+                        <p class="price">₹54.00</p>
+                        <del>₹65.00</del>
                       </div>
             
                     </div>
@@ -1100,8 +1100,8 @@
                       <a href="#" class="showcase-category">Sports</a>
             
                       <div class="price-box">
-                        <p class="price">$52.00</p>
-                        <del>$55.00</del>
+                        <p class="price">₹52.00</p>
+                        <del>₹55.00</del>
                       </div>
             
                     </div>
@@ -1123,8 +1123,8 @@
                       <a href="#" class="showcase-category">boots</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1147,8 +1147,8 @@
                       <a href="#" class="showcase-category">formal</a>
             
                       <div class="price-box">
-                        <p class="price">$56.00</p>
-                        <del>$78.00</del>
+                        <p class="price">₹56.00</p>
+                        <del>₹78.00</del>
                       </div>
             
                     </div>
@@ -1170,8 +1170,8 @@
                       <a href="#" class="showcase-category">Casual</a>
             
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$55.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹55.00</del>
                       </div>
             
                     </div>
@@ -1208,8 +1208,8 @@
                       <a href="#" class="showcase-category">Watches</a>
             
                       <div class="price-box">
-                        <p class="price">$50.00</p>
-                        <del>$34.00</del>
+                        <p class="price">₹50.00</p>
+                        <del>₹34.00</del>
                       </div>
             
                     </div>
@@ -1232,8 +1232,8 @@
                       <a href="#" class="showcase-category">Jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$84.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹84.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1256,8 +1256,8 @@
                       <a href="#" class="showcase-category">Perfume</a>
             
                       <div class="price-box">
-                        <p class="price">$42.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹42.00</p>
+                        <del>₹10.00</del>
                       </div>
             
                     </div>
@@ -1280,8 +1280,8 @@
                       <a href="#" class="showcase-category">Belt</a>
             
                       <div class="price-box">
-                        <p class="price">$24.00</p>
-                        <del>$10.00</del>
+                        <p class="price">₹24.00</p>
+                        <del>₹10.00</del>
                       </div>
             
                     </div>
@@ -1308,8 +1308,8 @@
                       <a href="#" class="showcase-category">jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$62.00</p>
-                        <del>$65.00</del>
+                        <p class="price">₹62.00</p>
+                        <del>₹65.00</del>
                       </div>
             
                     </div>
@@ -1331,8 +1331,8 @@
                       <a href="#" class="showcase-category">Watches</a>
             
                       <div class="price-box">
-                        <p class="price">$56.00</p>
-                        <del>$78.00</del>
+                        <p class="price">₹56.00</p>
+                        <del>₹78.00</del>
                       </div>
             
                     </div>
@@ -1355,8 +1355,8 @@
                       <a href="#" class="showcase-category">cosmetics</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1379,8 +1379,8 @@
                       <a href="#" class="showcase-category">jewellery</a>
             
                       <div class="price-box">
-                        <p class="price">$20.00</p>
-                        <del>$30.00</del>
+                        <p class="price">₹20.00</p>
+                        <del>₹30.00</del>
                       </div>
             
                     </div>
@@ -1569,7 +1569,7 @@
 
                 <div class="showcase-content">
 
-                  <a href="#" class="showcase-category">car</a>
+                  <a href="" class="showcase-category">car</a>
 
                   <h3>
                     <a href="http://127.0.0.1:8000/view-product?batteryId=5" class="showcase-title">Amaron FL-00042B20L Flo 12 Volts 35Ah Front Car Battery</a>
@@ -1616,7 +1616,7 @@
                   <a href="#" class="showcase-category">Car</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Exide FMI0-MI35R Mileage Front Car Battery (12V, 35Ah)"</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=4" class="showcase-title">Exide FMI0-MI35R Mileage Front Car Battery (12V, 35Ah)"</a>
                   </h3>
                         
                   <div class="price-box">
@@ -1658,7 +1658,7 @@
                   <a href="#" class="showcase-category">car</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Exide Din50-50ah Mileage Car Battery</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=3" class="showcase-title">Exide Din50-50ah Mileage Car Battery</a>
                   </h3>
               
                   <div class="price-box">
@@ -1702,7 +1702,7 @@
                   <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">AMARON lead acid HI LIFE FLO 36B20L 36 ah BATTERY FOR PETROL CARS, Passenger Car</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=2" class="showcase-title">AMARON lead acid HI LIFE FLO 36B20L 36 ah BATTERY FOR PETROL CARS, Passenger Car</a>
                   </h3>
     
                   <div class="price-box">
@@ -1744,7 +1744,7 @@
                   <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">EXIDE Mileage MRED35/R/L 35 amp_hour Battery</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=1" class="showcase-title">EXIDE Mileage MRED35/R/L 35 amp_hour Battery</a>
                   </h3>
               
                   <div class="price-box">
@@ -1789,7 +1789,7 @@
                   <a href="#" class="showcase-category">bike</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Amaron BL-400LMF Black 12 Volts 35Ah Front Car Battery</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=6" class="showcase-title">Amaron BL-400LMF Black 12 Volts 35Ah Front Car Battery</a>
                   </h3>
               
               
@@ -1832,7 +1832,7 @@
                   <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=7" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
                   </h3>
               
               
@@ -1877,7 +1877,7 @@
                   <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=7" class="showcase-title">EXIDE ML38B20L Battery (35 Ah)</a>
                   </h3>
               
                   <div class="price-box">
@@ -1920,12 +1920,12 @@
                   <a href="#" class="showcase-category">truck</a>
               
                   <h3>
-                    <a href="#" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+                    <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
                   </h3>
               
               
                   <div class="price-box">
-                    <p class="price">$32.00</p>
+                    <p class="price">₹32.00</p>
                   </div>
               
                 </div>
@@ -1965,12 +1965,12 @@
                 <a href="#" class="showcase-category">truck</a>
               
               <h3>
-                <a href="#" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
               </h3>
           
           
               <div class="price-box">
-                <p class="price">$32.00</p>
+                <p class="price">₹32.00</p>
               </div>
                 </div>
               
@@ -2007,12 +2007,12 @@
                 <a href="#" class="showcase-category">truck</a>
               
               <h3>
-                <a href="#" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
               </h3>
           
           
               <div class="price-box">
-                <p class="price">$32.00</p>
+                <p class="price">₹32.00</p>
               </div>
                 </div>
               
@@ -2051,12 +2051,12 @@
                 <a href="#" class="showcase-category">truck</a>
               
               <h3>
-                <a href="#" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
+                <a href="http://127.0.0.1:8000/view-product?batteryId=8" class="showcase-title">Exide SF Sonic BoltZ-FBZ0-BZ-55LS Car Battery</a>
               </h3>
           
           
               <div class="price-box">
-                <p class="price">$32.00</p>
+                <p class="price">₹32.00</p>
               </div>
                 </div>
               
@@ -2129,7 +2129,7 @@
 
               <h2 class="cta-title">Summer collection</h2>
 
-              <p class="cta-text">Starting @ $10</p>
+              <p class="cta-text">Starting @ ₹10</p>
 
               <button class="cta-btn">Shop now</button>
 
@@ -2158,7 +2158,7 @@
                 <div class="service-content">
 
                   <h3 class="service-title">Worldwide Delivery</h3>
-                  <p class="service-desc">For Order Over $100</p>
+                  <p class="service-desc">For Order Over ₹100</p>
 
                 </div>
 
@@ -2218,7 +2218,7 @@
                 <div class="service-content">
               
                   <h3 class="service-title">30% money back</h3>
-                  <p class="service-desc">For Order Over $100</p>
+                  <p class="service-desc">For Order Over ₹100</p>
               
                 </div>
               
