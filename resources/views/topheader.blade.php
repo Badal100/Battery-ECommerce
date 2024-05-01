@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="./assets/js/SearchScript.js"></script>
   <link rel="stylesheet" href="./assets/css/SearchStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!--
     - favicon
   -->
@@ -187,7 +188,7 @@
 
     <nav class="desktop-navigation-menu">
 
-      <div class="container">
+      <div class="container" id="myHeader">
 
         <ul class="desktop-menu-category-list">
 

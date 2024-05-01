@@ -1,32 +1,6 @@
 @include('topheader')
 <script>
   
-//   window.onscroll = function() {myFunction()};
-
-// var header = document.getElementById("myHeader");
-// var sticky = header.offsetTop;
-// function myFunction() {
-
-//   if (window.pageYOffset > sticky) {
-//  	    header.classList.add("leftStaticClass");
-// 		document.getElementById("h").style.height="94vh";
-//     document.getElementById("navbar").style.marginBottom="44px";
-//     document.getElementById("h").style.position="fixed";
-//     document.getElementById("hide").style.display="block";
-//     document.getElementById("h").style.marginTop="-57px";
-
-//   } else {
-
-//     header.classList.remove("leftStaticClass");
-//     document.getElementById("h").style.height="87vh";
-//     document.getElementById("navbar").style.marginBottom="0px";
-//     document.getElementById("h").style.marginTop="0px";
-//     document.getElementById("h").style.position="static";
-//     document.getElementById("hide").style.display="none";
-
-//   }
-// }
-
   function validateForm() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
@@ -70,7 +44,7 @@
       features = features + "<option>" + item + "</option>";
      });
 
-          var tblRow = "<div class=showcase-wrapper has-scrollbar><div class='showcase-container'><div class='showcase'><div class='showcase-banner'><img src='./assets/images/Battery/battery2.jpg' class='showcase-img'></div><div class='showcase-content'><a href='#'><h3 class='showcase-title'>"
+          var tblRow = "<div class=showcase-wrapper has-scrollbar><div class='showcase-container'><div class='showcase'><div class='showcase-banner'><div class='imageOuterDiv'><img src='./assets/images/Battery/battery2.jpg' class='product-showcase-img' id='productimage'></div></div><div class='showcase-content'><a href='#'><h3 class='showcase-title'>"
            + batteryObject.title + 
            "</h3></a><p class='showcase-desc'>Product Dimensions: <b>" + batteryObject.Technical_Details.Product_Dimensions
             + "</b></p>" + 
@@ -107,7 +81,7 @@
    <div id="BatteryProductSection">
    </div>
    </div>
-
+<!-- <div id='productimage'></div> -->
    <div class="product-container">
 
 <div class="container">
@@ -619,7 +593,7 @@
 
     <div class="product-main">
 
-      <h2 class="title">Similar Products</h2>
+      <h2 class="title" id='showContainer'>Similar Products</h2>
 
       <div class="product-grid">
 
@@ -806,67 +780,105 @@
 
 </div>
 
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-card-4">
-    <header class="w3-container">
+<div id="id01" class="w3-modal" style="padding-top:60px">
+  <div class="w3-modal-content w3-animate-zoom w3-card-4" style="width:50%">
+    <!-- <header class="w3-container">
       <span
         onclick="document.getElementById('id01').style.display='none'"
-        class="w3-button w3-display-topright"
-        >&times;</span
-      >
-      <h2 class="w3-center">Buy Battery</h2>
+        class="w3-button"
+        ><i class="fas fa-times"></i></span>
+    </header> -->
+    <div class="w3-content">
+  <div class="w3-card-4">
+    <header class="w3-light-grey" style="padding-left:24px;display:flex">
+      <div style="width:100%">
+      <h4 class="w3-section">Buy Battery</h4>
+  </div>
+  <div style="display:flex;align-items:center">
+      <span
+        onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button"
+        ><i class="fas fa-times"></i></span>
+  </div>
     </header>
-    <div class="w3-container container">
-      <form class="w3-container" id="myForm" onsubmit="return validateForm()">
-        <label>Name</label>
-        <input
-          class="w3-input w3-border w3-margin-bottom"
-          type="text"
-          id="name"
-          name="name"
-        />
-
-        <label>Email</label>
-        <input
-          class="w3-input w3-border w3-margin-bottom"
-          type="email"
-          id="email"
-          name="email"
-        />
-
-        <label>Mobile Number</label>
-        <input
-          class="w3-input w3-border w3-margin-bottom"
-          type="tel"
-          id="mobile"
-          name="mobile"
-        />
-
-        <label>Address</label>
-        <textarea
-          class="w3-input w3-border w3-margin-bottom"
-          id="address"
-          name="address"
-        ></textarea>
-
-        <label id="selectedBattery"></label>
-        <div class="w3-center w3-margin-top">
-          <button class="w3-button w3-blue w3-margin-bottom" type="submit">
-            Submit
-          </button>
+    <div class="w3-container">
+      <div style="padding:0px 8px">
+      <form id="contactForm">
+        <div class="w3-margin-top w3-margin-bottom">
+          <label for="name" class="">Name <i class="fas fa-user"></i></label>
+          <input class="w3-input w3-border w3-round"  style="margin-top:8px" type="text" id="name" name="name" required>
         </div>
+        <div class="w3-margin-top w3-margin-bottom">
+          <label for="email">Email <i class="fas fa-at"></i></label>
+          <input class="w3-input w3-border w3-round" style="margin-top:8px" type="email" id="email" name="email" required>
+        </div>
+        <div class="w3-margin-top w3-margin-bottom">
+          <label for="mobile">Mobile Number <i class="fas fa-phone"></i></label>
+          <input class="w3-input w3-border w3-round" style="margin-top:8px" type="tel" id="mobile" name="mobile" required>
+        </div>
+        <div class="w3-margin-top w3-margin-bottom">
+          <label for="address">Address <i class="fas fa-map-marker-alt"></i></label>
+          <textarea class="w3-input w3-border w3-round" style="margin-top:8px" id="address" name="address" rows="1" required></textarea>
+        </div>
+        <label id="selectedBattery"></label>
+
+<div class="w3-center w3-margin">
+          <button class="w3-button w3-blue w3-round w3-margin-bottom">Submit <i class="fas fa-paper-plane"></i></button>
+</div>
+        
       </form>
+      <div>
     </div>
+  </div>
+</div>
+
   </div>
 </div>
 
     </div>
   </div>
        
-
 </main>
 
 @include('footer')
+<script>
+ window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var showContainer = document.getElementById("showContainer");
+var productimage = document.getElementById("productimage");
+var imageOuterDiv = document.querySelector(".imageOuterDiv");
+var sticky = header.offsetTop;
+var rect = showContainer.getBoundingClientRect();
+console.log(rect.top);
+
+function myFunction() {
+try{
+  if(productimage==null)
+  productimage = document.getElementById("productimage");
+if(imageOuterDiv==null)
+imageOuterDiv = document.querySelector(".imageOuterDiv");
+
+  if (window.pageYOffset > sticky && window.pageYOffset <= (rect.top+170)) {
+    productimage.classList.add("leftStaticClass");
+    imageOuterDiv.style.position = "relative";
+      imageOuterDiv.style.top = "0px"
+  } else {
+    if(window.pageYOffset > (rect.top+170)){
+      imageOuterDiv.style.position = "relative";
+      imageOuterDiv.style.top = "250px"
+    }
+    productimage.classList.remove("leftStaticClass");
+  }
+  // if(){
+  //   // productimage.classList.remove("leftStaticClass");
+  //  console.log(rect.top + window.scrollY);
+  // }
+}
+catch(error){
+  console.log(error);
+}
+}
+  </script>
   </body>
   </html>
